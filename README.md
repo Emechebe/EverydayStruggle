@@ -15,7 +15,7 @@
 
 ## Results
 ### Monthly views of show with or without Joe
-![]("https://github.com/Emechebe/EverydayStruggle/blob/master/Views.png?raw=true")
+![](https://github.com/Emechebe/EverydayStruggle/blob/master/Views.png?raw=true)
 ### Monthly dislikes of show with or without Joe
 
 
