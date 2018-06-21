@@ -14,10 +14,12 @@
 ### The python notebook called DataAbalysis.ipynb contains code that connects to both databases (with or without Joe), integrated both data sets, resampled data to monthly frequency and calculated the mean of view and dislikes for each month. Then plotted this information. 
 
 ## Results
+
 ### Monthly views of show with or without Joe
 ![](https://github.com/Emechebe/EverydayStruggle/blob/master/Views.png?raw=true)
-### Monthly dislikes of show with or without Joe
 
+### Monthly dislikes of show with or without Joe
+![](https://github.com/Emechebe/EverydayStruggle/blob/master/Dislikes.png?raw=true)
 
 # First I need to get the data of the all the shows from 2017-04 to 2017-12. I wrote a python script to 
 
