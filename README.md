@@ -21,9 +21,6 @@
 ### Monthly dislikes of show with or without Joe
 ![](https://github.com/Emechebe/EverydayStruggle/blob/master/Dislikes.png?raw=true)
 
-# First I need to get the data of the all the shows from 2017-04 to 2017-12. I wrote a python script to 
+## Conclusions : Seemed like my intution was somewhat correct. With Joe, the show grossed a monthly viewership of 425,000 while without Joe it grossed 225,000. So the difference is about 200,000. Thats a pretty big difference. In terms of the number of dislikes, with Joe the number of dislikes were about 1,000 while without Joe the numbers rose up to 2,500 dislikes per month. 
 
-# The youtube search api only returns a maximum of 50 results every request. So I decided to put this in a loop 
-# using a start date and a last date. After the first iteration, the last date is updated for the next iteration. However, I
-# didnt bother with the start date, so thats constant. However data is not duplicated since sqlite will not add data that is already
-# in database..so it will always find the last date and start from there. 
+## Caveats : There is an argument to be made that I am not comparing the same distribution. The Joes episode have been out longer than episodes without Joe and so just because of that ,Joe's episodes would have garnered more views. Thats fair ; however, the number of dislikes argues against that. Although Joe's episodes have been out longer, episodes without Joe have managed to garner more dislikes. I only plotted the raw number of dislikes. There might be a better way of doing this eg normalizing the number of dislikes to the total number of views. I think this would even lead to a greater difference since the number of views were more for Joe. Finally, there is no statistical test. But all in all, there is pretty strong preliminary evidence to suggest that Joe leaving did hurt the show at least in terms of number of views and number of dislikes. 
